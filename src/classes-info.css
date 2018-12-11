@@ -1,0 +1,13 @@
+@font-face{
+    font-family: "DnD";
+    src: url("../src/DUNGRG__.TTF")
+}
+
+ul {
+    list-style: none
+}
+
+h1, h2, h3 {
+    font-family: 'DnD'
+}
+

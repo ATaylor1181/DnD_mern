@@ -7,7 +7,31 @@ ul {
     list-style: none
 }
 
-h1, h2, h3 {
-    font-family: 'DnD'
+li {
+    text-align: center;
+    max-width: 100%;
+    list-style: none
 }
 
+.grid-item {
+    text-align: center
+}
+
+
+h1, h2, h3 {
+    font-family: 'DnD';
+    text-align: center
+}
+
+.parchmentTop {position:relative;width:730px;top:25px;font-family:georgia,times;font-style:italic;font-size:12pt;line-height:normal;background-image:url("./Parchment-Body.png");}
+
+.parchment {position:relative;top:-25px;width:730px;height:38px;background-image:url("./Parchment-Top-Blend-trans.png");}
+
+.parchmentBottom {position:relative;bottom:-18px;right:-6px;width:730px;height:38px;background-image:url("./Parchment-Bottom-Blend-trans.png");margin-bottom:40px;}
+
+.parchmentBody {width:610px;padding: 1px 60px 2px 60px;}
+
+#spells-info {
+    max-width: 100%;
+    text-align: center
+}
